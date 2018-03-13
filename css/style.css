@@ -1,0 +1,45 @@
+
+body {
+	background: #7887AB;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.container ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+img {
+	margin: 10px;
+	transition: background-color, 0.15, ease;
+}
+img:hover {
+	opacity: 0.5; 
+	cursor: pointer;
+}
+.searchbar input[type=text]{
+	width: 50%;
+	margin: 25px;
+	line-height: 1.0;
+	height: 30px;
+	padding: 7px;	
+	border-radius: 5px;
+	text-align: center;
+	font-family: nunito;
+}
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.lb-data .lb-caption {
+	font-size: 15px;
+}
+
